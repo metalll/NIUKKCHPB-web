@@ -7,7 +7,7 @@
 <body>
 
 <header>
-    <#include "../header.ftl">
+    <#include "./newsAsset/header.ftl">
 </header>
 <!--Контент с новостьями-->
 <article>
