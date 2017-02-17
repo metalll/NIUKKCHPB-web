@@ -40,7 +40,7 @@ public class Main {
       Map<String,Object> attr = new HashMap<>();
       attr.put("key","value");
 
-      return new ModelAndView( "" ,"/partial/newspage.ftl");
+      return new ModelAndView( attr ,"/partial/newspage.ftl");
     }),new FreeMarkerEngine());
 
 
