@@ -21,7 +21,7 @@
                     <div class="news-block-panel">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/public/img/news-bloks.jpg" alt="news-block">
+                                <img src="/img/news-bloks.jpg" alt="news-block">
                                 <a href="#"><b>Нашли виноватого в управленческом скандале на
                                     происводстве</b></a>
                                 <p>Consequatur expedita fugiat natus, ratione similique voluptates
@@ -30,7 +30,7 @@
                                 <a href="#" class="info-news">Подробнее</a>
                             </div>
                             <div class="col-md-4">
-                                <img src="/public/img/news-bloks.jpg" alt="news-block">
+                                <img src="/img/news-bloks.jpg" alt="news-block">
                                 <a href="#"><b>Нашли виноватого в управленческом скандале на
                                     происводстве</b></a>
                                 <p>Consequatur expedita fugiat natus, ratione similique voluptates
@@ -39,7 +39,7 @@
                                 <a href="#" class="info-news">Подробнее</a>
                             </div>
                             <div class="col-md-4">
-                                <img src="/public/img/news-bloks.jpg" alt="news-block">
+                                <img src="/img/news-bloks.jpg" alt="news-block">
                                 <a href="#"><b>Нашли виноватого в управленческом скандале на
                                     происводстве</b></a>
                                 <p>Consequatur expedita fugiat natus, ratione similique voluptates
@@ -55,17 +55,17 @@
                                 <h1>Новые материалы</h1>
                                 <div class="new-news-block">
                                     <div class="col-md-4">
-                                        <img src="/public/img/new-news.png" alt="new-news">
+                                        <img src="/img/new-news.png" alt="new-news">
                                         <h5>Интересное</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequat</p>
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="/public/img/new-news.png" alt="new-news">
+                                        <img src="/img/new-news.png" alt="new-news">
                                         <h5>Интересное</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequat</p>
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="/public/img/new-news.png" alt="new-news">
+                                        <img src="/img/new-news.png" alt="new-news">
                                         <h5>Интересное</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequat</p>
                                     </div>
@@ -83,7 +83,7 @@
                         <div class="news-block">
                             <div class="all-news-btn">
                                 <a href="#">
-                                    <img src="/public/img/icon-btn.png" alt="icon-btn"> Последние новости за сегодня
+                                    <img src="/img/icon-btn.png" alt="icon-btn"> Последние новости за сегодня
                                 </a>
                             </div>
                             <div class="news-date text-center">
@@ -140,7 +140,7 @@
                             </ul>
                             <div class="all-news-btn">
                                 <a href="#">
-                                    <img src="/public/img/icon-btn.png" alt="icon-btn"> Все новости
+                                    <img src="/img/icon-btn.png" alt="icon-btn"> Все новости
                                 </a>
                             </div>
                         </div>
@@ -158,7 +158,7 @@
                 <div class="row">
                     <div class="popular-news-block">
                         <div class="col-md-4 ">
-                            <img src="/public/img/popular-news.jpg" alt="popular-news">
+                            <img src="/img/popular-news.jpg" alt="popular-news">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias, aperiam
                                 cupiditate, debitis, deserunt dolorem fugit hic inventore iure laborum nemo</h4>
                             <a href="#">Подробнее...</a>
@@ -166,7 +166,7 @@
                     </div>
                     <div class="popular-news-block">
                         <div class="col-md-4 ">
-                            <img src="/public/img/popular-news.jpg" alt="popular-news">
+                            <img src="/img/popular-news.jpg" alt="popular-news">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias, aperiam
                                 cupiditate, debitis, deserunt dolorem fugit hic inventore iure laborum nemo</h4>
                             <a href="#">Подробнее...</a>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="popular-news-block">
                         <div class="col-md-4 ">
-                            <img src="/public/img/popular-news.jpg" alt="popular-news">
+                            <img src="/img/popular-news.jpg" alt="popular-news">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias, aperiam
                                 cupiditate, debitis, deserunt dolorem fugit hic inventore iure laborum nemo</h4>
                             <a href="#">Подробнее...</a>
@@ -198,7 +198,7 @@
                 <div class="row">
                     <div class="best-news-block">
                         <div class="col-md-4 ">
-                            <img src="/public/img/popular-news.jpg" alt="popular-news">
+                            <img src="/img/popular-news.jpg" alt="popular-news">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias, aperiam
                                 cupiditate, debitis, deserunt dolorem fugit hic inventore iure laborum nemo</h4>
                             <a href="#">Подробнее...</a>
@@ -206,7 +206,7 @@
                     </div>
                     <div class="best-news-block">
                         <div class="col-md-4 ">
-                            <img src="/public/img/popular-news.jpg" alt="popular-news">
+                            <img src="/img/popular-news.jpg" alt="popular-news">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias, aperiam
                                 cupiditate, debitis, deserunt dolorem fugit hic inventore iure laborum nemo</h4>
                             <a href="#">Подробнее...</a>
@@ -214,7 +214,7 @@
                     </div>
                     <div class="best-news-block">
                         <div class="col-md-4 ">
-                            <img src="/public/img/popular-news.jpg" alt="popular-news">
+                            <img src="/img/popular-news.jpg" alt="popular-news">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias, aperiam
                                 cupiditate, debitis, deserunt dolorem fugit hic inventore iure laborum nemo</h4>
                             <a href="#">Подробнее...</a>
@@ -235,7 +235,7 @@
    <#include "../footer.ftl">
 </footer>
 
-<script src="/public/js/jquery-3.1.1.min.js"></script>
-<script src="/public/js/bootstrap.min.js"></script>
-</body>
+<script src="/js/jquery-3.1.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
 </html>
