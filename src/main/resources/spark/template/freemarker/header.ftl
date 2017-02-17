@@ -23,10 +23,10 @@
     <div class="container">
         <ul>
 
-            <li id="active-header-menu"><a href="index.ftl">Home</a></li>
+            <li id="active-header-menu"><a href="/">Home</a></li>
             <li><a href="#">Компания</a></li>
             <li><a href="#">Услуги</a></li>
-            <li class=""><a href="./partial/newspage.ftl">Новости</a></li>
+            <li class=""><a href="/news">Новости</a></li>
             <li><a href="#">Карьера</a></li>
             <li><a href="#">Контакты</a></li>
             <li class=""><a href="#">Поиск</a></li>

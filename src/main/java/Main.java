@@ -1,5 +1,6 @@
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+import freemarker.ext.beans.HashAdapter;
 import spark.ModelAndView;
 import spark.template.freemarker.FreeMarkerEngine;
 
@@ -9,6 +10,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 import static spark.Spark.*;
 
@@ -32,6 +34,16 @@ public class Main {
     config.setJdbcUrl(System.getenv("JDBC_DATABASE_URL"));
     final HikariDataSource dataSource = (config.getJdbcUrl() != null) ?
       new HikariDataSource(config) : new HikariDataSource();
+
+    get("/news",((request, response) -> {
+
+      Map<String,Object> attr = new HashMap<>();
+      attr.put("key","value");
+
+      return new ModelAndView( "" ,"/partial/newspage.ftl");
+    }),new FreeMarkerEngine());
+
+
 
     get("/db", (req, res) -> {
       Map<String, Object> attributes = new HashMap<>();
