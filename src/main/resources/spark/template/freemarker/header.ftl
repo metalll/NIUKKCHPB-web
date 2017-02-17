@@ -39,7 +39,7 @@
 <div class="slider">
     <div class="col-md-12">
         <div class="row">
-            <img src="/public/img/slider.jpg" alt="slider"/>
+            <img src="/img/slider.jpg" alt="slider"/>
         </div>
     </div>
 </div>
