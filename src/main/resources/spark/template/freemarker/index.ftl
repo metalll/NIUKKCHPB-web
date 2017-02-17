@@ -1,66 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <#include "header.ftl">
-</head>
-
+<#include "head.ftl">
 <body>
 
-  <#include "nav.ftl">
+<header>
+<#include "header.ftl">
+</header>
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Getting Started with Java on Heroku</h1>
-    <p>This is a sample Java application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-java"><span class="glyphicon glyphicon-flash"></span> Getting Started with Java</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/java-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
-  </div>
-</div>
-<div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-java" class="alert-link">Getting Started with Java on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/java-getting-started">Heroku Button</a> on the repository.</li>
 
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/java-getting-started/blob/master/pom.xml">pom.xml</a>, creating a slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
+<article>
+    <div class="center-content">
+        <div class="container">
+
+            <div class="col-md-12">
+                <div class="center-content-header">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h1>Широчайший спектр отраслей</h1>
+                        </div>
+                        <div class=".col-md-offset-10 text-right">
+                            <p>12 отраслевых практик</p>
+                            <button class="btn btn-primary">Заказть обратный звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="center-block-info">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="/public/img/1.jpg" alt="1">
+                            <h3>Нефть, Газ, Химия</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis dolor dolores
+                                ducimus, eveniet facilis fuga iste minus molestiae nemo, pariatur perferendis reiciendis
+                                vitae? Eveniet ex fugit nulla perspiciatis praesentium.</p>
+                            <button class="btn btn-primary">подробнее</button>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="/public/img/1.jpg" alt="1">
+                            <h3>Нефть, Газ, Химия</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis dolor dolores
+                                ducimus, eveniet facilis fuga iste minus molestiae nemo, pariatur perferendis reiciendis
+                                vitae? Eveniet ex fugit nulla perspiciatis praesentium.</p>
+                            <button class="btn btn-primary">подробнее</button>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="/public/img/1.jpg" alt="1">
+                            <h3>Нефть, Газ, Химия</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis dolor dolores
+                                ducimus, eveniet facilis fuga iste minus molestiae nemo, pariatur perferendis reiciendis
+                                vitae? Eveniet ex fugit nulla perspiciatis praesentium.</p>
+                            <button class="btn btn-primary">подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="offer-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h1>Наши услуги</h1>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <div class="nav-btn">
+                                    <img src="/public/img/left-nav.png" alt="left">
+                                    <img src="/public/img/right-nav.png" alt="right">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <img src="/public/img/offer-content.png">
+                                <h3>Разработка документации</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi et facere numquam vel
+                                    voluptatibus. Adipisci, assumenda eaque esse harum illo itaque minima modi, odit
+                                    perferendis praesentium quasi quo soluta, veritatis.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="/public/img/offer-content.png">
+                                <h3>Разработка документации</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi et facere numquam vel
+                                    voluptatibus. Adipisci, assumenda eaque esse harum illo itaque minima modi, odit
+                                    perferendis praesentium quasi quo soluta, veritatis.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="/public/img/offer-content.png">
+                                <h3>Разработка документации</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi et facere numquam vel
+                                    voluptatibus. Adipisci, assumenda eaque esse harum illo itaque minima modi, odit
+                                    perferendis praesentium quasi quo soluta, veritatis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="offer-btn">
+                            <button class="btn btn-primary">Посмотреть все</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="center-info">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="slider-info">
+                        <img src="/public/img/slider-info.jpg" alt="slider-info">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="center-info-content">
+                        <h2>Почему именно мы?</h2>
+                        <div class="row">
+                            <img src="/public/img/Cloack.png" alt="cloack">
+                            <h3>Мы ценим ваше время</h3>
+                            <p> corporis ex excepturi fuga necessitatibus officia perspiciatis, quaerat, quas quod,
+                                saepe similique vel? Accusantium corporis dicta odit provident voluptate.</p>
+                        </div>
+                        <div class="row">
+                            <img src="/public/img/factory.png" alt="factory">
+                            <h3>Результат привыше всего</h3>
+                            <p>tetur cupiditate deserunt ipsa minus modi vel? Accusamus, ad assumenda debitis error est
+                                officiis quasi qui rem soluta ut.</p>
+                        </div>
+                        <div class="row">
+                            <img src="/public/img/key.png" alt="key">
+                            <h3>Максимальные маштабы</h3>
+                            <p>lorem enim exercitationem fuga illum maiores modi optio placeat quos ratione sunt vel.
+                                Id, quisquam rem! Nemo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+        <div class="client-content">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="client-banner-content">
+                        <div class="row">
+                            <div class="col-md-6 text-left">
+                                <h1>Клиенты</h1>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <p>В числе наших компаний находяться 8 самых крупных предприятий</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="banner-slider">
+                                <span class="">
+                                    <img src="/public/img/left-nav.png" alt="left">
+                                </span>
+                                <a href="#"><img src="/public/img/client-banner.jpg" alt="client-banner"></a>
+                                <a href="#"><img src="/public/img/client-banner.jpg" alt="client-banner"></a>
+                                <a href="#"><img src="/public/img/client-banner.jpg" alt="client-banner"></a>
+                                <a href="#"><img src="/public/img/client-banner.jpg" alt="client-banner"></a>
+                                <a href="#"><img src="/public/img/client-banner.jpg" alt="client-banner"></a>
+                                <span class="">
+                                    <img src="/public/img/right-nav.png" alt="right">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-bottom-content">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <h1>Последние новости</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="news-block">
+                                <ul>
+                                    <li>
+                                        <div class="news-block-content">
+                                            <b>20.00</b>
+                                            <p>
+                                                <a href="#"> Ad aspernatur eveniet, explicabo facere facilis, id quam
+                                                    quasi quis tempora vita</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-block-content">
+                                            <b>20.00</b>
+                                            <p>
+                                                <a href="#"> Ad aspernatur eveniet, explicabo facere facilis, id quam
+                                                    quasi quis tempora vita</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-block-content">
+                                            <b>20.00</b>
+                                            <p>
+                                                <a href="#"> Ad aspernatur eveniet, explicabo facere facilis, id quam
+                                                    quasi quis tempora vita</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-block-content">
+                                            <b>20.00</b>
+                                            <p>
+                                                <a href="#"> Ad aspernatur eveniet, explicabo facere facilis, id quam
+                                                    quasi quis tempora vita</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-block-content">
+                                            <b>20.00</b>
+                                            <p>
+                                                <a href="#"> Ad aspernatur eveniet, explicabo facere facilis, id quam
+                                                    quasi quis tempora vita</a>
+                                            </p>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                                <div class="all-news-btn">
+                                    <a href="#">
+                                        <img src="/public/img/icon-btn.png" alt="icon-btn"> Все новости
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="news-block-panel">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="/public/img/news-bloks.jpg" alt="news-block">
+                                        <a href="#"><b>Нашли виноватого в управленческом скандале на
+                                            происводстве</b></a>
+                                        <p>Consequatur expedita fugiat natus, ratione similique voluptates
+                                            voluptatibus.</p>
+
+                                        <a href="#" class="info-news">Подробнее</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/public/img/news-bloks.jpg" alt="news-block">
+                                        <a href="#"><b>Нашли виноватого в управленческом скандале на
+                                            происводстве</b></a>
+                                        <p>Consequatur expedita fugiat natus, ratione similique voluptates
+                                            voluptatibus.</p>
+
+                                        <a href="#" class="info-news">Подробнее</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/public/img/news-bloks.jpg" alt="news-block">
+                                        <a href="#"><b>Нашли виноватого в управленческом скандале на
+                                            происводстве</b></a>
+                                        <p>Consequatur expedita fugiat natus, ratione similique voluptates
+                                            voluptatibus.</p>
+
+                                        <a href="#" class="info-news">Подробнее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-java">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/java-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd java-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-java#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-java">Getting Started with Java on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-java">Deploying Java Apps on Heroku</a></li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
-</div>
 
+</article>
 
+<footer>
+   <#include "footer.ftl">
+</footer>
+
+<script src="/public/js/jquery-3.1.1.min.js"></script>
+<script src="/public/js/bootstrap.min.js"></script>
 </body>
 </html>

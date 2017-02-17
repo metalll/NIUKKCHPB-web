@@ -47,7 +47,7 @@ public class Main {
         }
 
         attributes.put("results", output);
-        return new ModelAndView(attributes, "db.ftl");
+        return new ModelAndView(attributes, "newspage.ftl");
       } catch (Exception e) {
         attributes.put("message", "There was an error: " + e);
         return new ModelAndView(attributes, "error.ftl");
